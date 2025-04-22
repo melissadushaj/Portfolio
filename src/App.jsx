@@ -1,4 +1,6 @@
 import React from 'react'
+import Hero from './Components/Hero'
+import Nav from './Components/Nav'
 
 export default function App() {
   
@@ -12,7 +14,7 @@ export default function App() {
         width: "100vw",
       }}
     >
-      <h1>HELLOOOOOO</h1>
+      <Nav/>
     </div>
   )
 }

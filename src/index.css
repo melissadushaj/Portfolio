@@ -18,6 +18,13 @@ body, html {
   padding: 0;
 }
 
-h1{
-  margin: 0;
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: white;
 }
