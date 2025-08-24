@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: url("background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar{
+    
+}
+
+.name{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    padding: 20px;
+    color: #F2F0EA;
+    font-size: 32px;
+    opacity: 0.7;
+}
