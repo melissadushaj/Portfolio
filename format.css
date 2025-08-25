@@ -1,21 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
-html, body {
-  height: 100%;
+body {
+  min-height: 100%;
   margin: 0;
-  background: url("background.png") no-repeat center center fixed;
+  background: url("Images/background.png");
   background-size: cover;
-}
-
-.navbar{
-    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .name{
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-    padding: 20px;
+    padding-left: 20px;
     color: #F2F0EA;
-    font-size: 32px;
+    font-size: 30px;
     opacity: 0.7;
+}
+
+.git{
+  opacity: 0.7;
+}
+
+.linkedin{
+  opacity: 0.7;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fullnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.line{
+  width: 50%;
+  size: 2;
+  color: #F2F0EA;
+  opacity: 0.7;
+  margin-right: 2%;
+  
 }
